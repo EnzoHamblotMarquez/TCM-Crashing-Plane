@@ -231,9 +231,10 @@ GameObject:
   - component: {fileID: 630339734}
   - component: {fileID: 630339740}
   - component: {fileID: 630339741}
+  - component: {fileID: 630339742}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Plane
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -251,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _direction: {x: 0, y: 1}
-  _impulse: 12
+  _impulse: 5
 --- !u!50 &630339735
 Rigidbody2D:
   serializedVersion: 4
@@ -434,6 +435,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ff7bcfa68bbc0e4e8079fe6a5ddce9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &630339742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630339733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac64df1d078dd049ac1b0140516f68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &684214252
@@ -668,6 +681,7 @@ MonoBehaviour:
   _prefabs:
   - {fileID: 5159174393068658102, guid: ad8ef54bfd8049d4897b25e7ec388cca, type: 3}
   - {fileID: 2441028125726398853, guid: 5642e6fa2b16b3f4ca9300a14e245155, type: 3}
+  - {fileID: 3122084698223731306, guid: a9648e5ab31aae44eb711a1169f19cbc, type: 3}
 --- !u!4 &1846705571
 Transform:
   m_ObjectHideFlags: 0
